@@ -1,0 +1,565 @@
+.header{
+	background-image: url(./images/background.jpg);
+	}
+	.top_text{
+		padding-top: 270px;
+		margin: 0px auto;
+		width: 67%;
+	}
+	.top_text h2{
+		box-sizing: border-box;
+		border: 2px solid #5b5b5b;
+		font-size: 55px;
+		padding: 60px 55px 60px 55px;
+		text-align: center;
+		color: white;
+		font-family: 'Merriweather', serif;
+	}
+	.target{
+		color: #f7ac53;
+	}
+	.menu{
+		text-align: center;
+		margin-bottom: 200px;
+		color: white;
+	}
+	.menu ul{
+		list-style-type: none;
+	}
+	.menu li:after{
+		content: "|";
+		padding: 0px 2px;
+		font-size: 18px;
+		color: #9f723f;
+	}
+	.menu li:last-child:after{
+		content: none;
+	}
+	.menu ul li{
+		display: inline;
+		}
+		.menu ul li a{
+			font-size: 13px;
+			text-decoration: none;
+			text-align: center;
+			padding: 10px 10px;
+		}
+	
+li a:hover {
+  background-color: #555;
+  color: red;
+}
+		.scrolldown{
+			color: #feb960;
+			width: 36px;
+			padding-top: 90px;
+			padding-bottom: 40px;
+			margin-left: 30px;
+		}
+		.scrolldown h4{
+			font-size: 26px;
+			border: 2px solid #feb960;
+			border-radius: 100%;
+			text-align: center;
+			padding: 10px 31px 9px 16px;
+		}
+		.arrowdown{
+			color: #feb960;
+			text-align: center;
+			margin-right: 38px;
+		}
+		.arrowleft_text{
+			text-align: center;
+			padding-top: 96px;
+			margin-left: 75px;
+		}
+		.arrowleft_text .text{
+			color: white;
+			font-size: 14px;
+			font-family: 'Roboto Mono', monospace;
+		}
+		.arrowleft_text .arowleft{
+			color: #f9b55e;
+		}
+		.services{
+
+			background: #202020;
+		}
+		.line{
+			height: 125px;
+			width: 2px;
+			margin: 0 auto;
+			margin-bottom: 19px;
+			background: #feb960;
+		}
+		.services_heading{
+			margin: 0 auto;
+			text-align: center;
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+			color:  #f9b55e;
+		}
+		.top_heading{
+			margin: 0 auto;
+			text-align: center;
+		}
+		.top_heading h1{
+			padding-top: 30px;
+			font-size: 40px;
+			color: white;
+			width: 60%;
+			margin: 0 auto;
+			margin-bottom: 100px;
+			font-family: 'Merriweather', serif;
+		}
+		.services_details{
+			margin: 0 auto;
+			padding-bottom: 147px;
+			animation: skew 3s infinite;
+			transform: skewX(30deg);
+			animation-direction: alternate;
+			}
+			@keyframes skew{
+				100%{
+					transform: skewX(-30deg);
+				}
+
+			}
+		}
+	.services_icons{
+			text-align: center;
+			
+		}
+		.services_details h3{
+			font-size: 30px;
+			font-family: 'Merriweather', serif;
+			color: white;
+
+	
+		}
+		.services_details p{
+			font-size: 14px;
+			font-family: 'Open Sans', serif;
+			color: #b4b4b4;
+			margin-top: 25px;
+			margin-bottom: 25px;
+
+	
+		}
+		.services_details .text{
+			color: white;
+			font-size: 14px;
+			font-family: 'Roboto Mono', monospace;
+		}
+		.services_details .arowleft{
+			color: #f9b55e;
+		}
+		.services_icons{
+			color: #f9b55e;
+			margin-bottom: 30px;
+
+		}
+		.project_details{
+			background: #181818;
+
+		}
+		.line2{
+			height: 125px;
+			width: 2px;
+			margin-left: 100px;
+			margin-bottom: 19px;
+			background: #feb960;
+			margin-top: 150px;
+		}
+		.index{
+			position: relative;
+			z-index: 1;
+			margin-right: -80px;
+		}
+	
+	 .branding_text{
+			font-size: 13px;
+			text-align: center;
+			color: #feb960;
+			margin-left: 98px;
+		}
+		.project{
+			font-size: 55px;
+			color: white;
+			margin-left: 93px;
+		}
+		.imge{
+			padding-top: 150px;
+    padding-bottom: 150px;
+    margin-left: -24px;
+		}
+		.line3{
+			height: 125px;
+			width: 2px;
+			background: #feb960;
+			margin-top: 436px;
+		}
+		.slider{
+			position: absolute;
+            bottom: 143px;
+
+		}
+		.slider .text{
+			color: white;
+			font-size: 14px;
+			font-family: 'Roboto Mono', monospace;
+		}
+		.slider .arowleft{
+			color: #f9b55e;
+		}
+		.testimonial{
+
+			background: #202020;
+			padding-bottom: 172px;
+		}
+		.line{
+			height: 125px;
+			width: 2px;
+			margin: 0 auto;
+			margin-bottom: 19px;
+			background: #feb960;
+		}
+		.monial_heading{
+			margin: 0 auto;
+			text-align: center;
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+			color:  #f9b55e;
+		}
+		.monialtop_heading{
+			margin: 0 auto;
+			text-align: center;
+		}
+		.monialtop_heading h1{
+			padding-top: 30px;
+			font-size: 40px;
+			color: white;
+			width: 66%;
+			margin: 0 auto;
+			margin-bottom: 120px;
+			font-family: 'Merriweather', serif;
+		}
+		.monial_pics{
+			margin-bottom: 100px;
+		}
+		.box_monial{
+			background: black;
+			width: 68%;
+			margin: 0 auto;
+		}
+		.top_logo{
+			text-align: center;
+			margin-bottom: 50px;
+		}
+		.box_text{
+			color: #bbbbbb;
+			font-size: 17px;
+			text-align: center;
+			margin: 0 auto;
+			margin-bottom: 50px;
+			font-family: 'Merriweather', serif;
+
+		}
+		.author{
+			color:  #f9b55e;
+			text-align: center;
+			padding-bottom: 34px;
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.designation{
+			color: white;
+			font-size: 13px;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.hr_line1{
+			width: 30%;
+			float: left;
+			background: white;
+			height: 2px;
+			margin-top: 30px;
+
+		}
+		.content{
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+		}
+		.hr_line2{
+			width: 30%;
+			margin-top: 30px;
+			float: right;
+			background: white;
+			height: 2px;
+
+		}
+.team{
+
+			background: #181818;
+			padding-bottom: 120px;
+		}
+		.line{
+			height: 125px;
+			width: 2px;
+			margin: 0 auto;
+			margin-bottom: 19px;
+			background: #feb960;
+		}
+		.team_heading{
+			margin: 0 auto;
+			text-align: center;
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+			color:  #f9b55e;
+		}
+		.teamtop_heading{
+			margin: 0 auto;
+			text-align: center;
+		}
+		.teamtop_heading h1{
+			padding-top: 30px;
+			font-size: 40px;
+			color: white;
+			width: 66%;
+			margin: 0 auto;
+			margin-bottom: 120px;
+			font-family: 'Merriweather', serif;
+		}
+	   .team_details{
+			text-align: center;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			position: relative;
+			
+		}
+		.about_team{
+			
+		}
+		.member_details{
+			background: #343434;
+			position: absolute;
+			height: 100%;
+			top: 0;
+			left: 0;
+			display: none;
+
+		}
+		.all_border:hover .member_details{
+			display: block;
+			
+		}
+		.all_border:hover .team_details{
+			opacity: 0;
+			
+		}
+		
+		
+		.about_ceo{
+			margin-top: 55px;
+		}
+		.all_border{
+			border-bottom: 1.5px solid #202020;
+			border-left: 1.5px solid #202020;
+		}
+		.all_border:nth-child(1) {
+			border-left: none;
+		}
+		.all_border:nth-child(5) {
+			border-bottom: none;
+			border-left: none;
+		}
+		.all_border:nth-child(6) {
+			border-bottom: none;
+		}
+		.all_border:nth-child(7) {
+			border-bottom: none;
+		}
+		.all_border:nth-child(8) {
+			border-bottom: none;
+		}
+		
+	
+	
+		.border_circle{
+			border-top: 2px solid  #f9b55e;
+			border-left:2px solid  #f9b55e;		
+		}
+		.circle{
+			border-radius: 100%;
+			background: #ffffff;
+			width: 48px;
+			margin-top: 10px;
+			margin-left: 6px;
+			height: 50px;
+		}
+		.about_ceo{
+
+		}
+		.name_ceo h3{
+		color:  #f9b55e;
+		font-size: 14px;
+		font-family: 'Open Sans', sans-serif;
+		}
+		.vertical_text{
+	writing-mode: vertical-rl;
+	margin-left: -17px;
+		}
+		.post h4{
+			color:  white;
+			margin-top: 27px;
+			font-size: 13px;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.ceo_details h4{
+			font-size: 13px;
+			color: white;
+			font-family: 'Open Sans', sans-serif;
+
+		}
+		.team_pics{
+			border-radius: 100%;
+			background: #ffffff;
+			height: 120px;
+			width: 120px;
+			margin: 0 auto;
+			margin-bottom: 22px;
+
+		}
+		.name h4{
+			color:  #f9b55e;
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.team_posts h5{
+			color:  white;
+			font-size: 13px;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.contact{
+
+			background: #202020;
+			padding-bottom: 172px;
+		}
+		.contact_heading{
+			margin: 0 auto;
+			text-align: center;
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+			color:  #f9b55e;
+		}
+		.contacttop_heading{
+			margin: 0 auto;
+			text-align: center;
+		}
+		.contacttop_heading h1{
+			padding-top: 30px;
+			font-size: 40px;
+			color: white;
+			width: 66%;
+			margin: 0 auto;
+			margin-bottom: 120px;
+			font-family: 'Merriweather', serif;
+		}
+		.box_contact{
+			background: black;
+			width: 68%;
+			margin: 0 auto;
+		}
+		.fname .name{
+			border-top: 0px;
+			border-left: 0px;
+			border-right: 0px;
+			border-bottom: 1px solid white;
+		}
+		.fname{
+			padding-bottom: 20px;
+		}
+		.lname{
+			border-top: 0px;
+			border-left: 0px;
+			width: 100%;
+			border-right: 0px;
+			border-bottom: 1px solid white;
+		}
+		.form{
+			padding-top: 40px;
+			padding-bottom: 45px;
+			padding-left: 20px;
+			padding-right: 20px;
+
+		}
+		.contact_done{
+			background: #feb960;
+			margin: 0 auto;
+			text-align: center;
+			padding: 23px 20px 27px 13px;
+    		width: 27%;
+    		margin-bottom: 24px;
+    		margin-top: 40px;
+	
+		}
+		.address{
+			padding-top: 115px;
+		}
+		.icon h4{
+			font-size: 26px;
+			border: 2px solid #feb960;
+			color: #feb960;
+			border-radius: 100%;
+			text-align: center;
+			padding: 19px 6px 16px 6px;
+    		margin-top: 21px;
+		}
+		.contact_details h3{
+			font-size: 14px;
+			font-family: 'Open Sans', serif;
+			color: white;
+			font-weight: bold;
+			margin-bottom: 25px;
+		}
+		.contact_details p{
+			font-size: 14px;
+			font-family: 'Open Sans', serif;
+			color: #868686;
+			margin-bottom: 25px;
+		}
+		.social_icons .fb{
+			border-radius: 100%;
+			background: white;
+			color: black;
+			padding: 8px 11px 7px 11px;
+		}
+		.social_icons .fb2{
+			border-radius: 100%;
+			background: white;
+			color: black;
+			margin-left: 10px;
+			    padding: 8px 8px 7px 8px
+		}
+		.social_icons .fb3{
+			border-radius: 100%;
+			background: white;
+			color: black;
+			margin-left: 6px;
+			padding: 8px 11px 7px 11px;
+		}
+		.social_icons .fb4{
+			border-radius: 100%;
+			background: white;
+			color: black;
+			margin-left: 5px;
+			    padding: 8px 8px 7px 8px
+		}
+		.social_icons .fb5{
+			border-radius: 100%;
+			margin-left: 5px;
+			background: white;
+			color: black;
+			padding: 8px 11px 7px 11px;
+		}
